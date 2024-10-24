@@ -98,6 +98,59 @@
             </div>
         </section>
     </main>
+    <div class="container1">
+        <div class="image-section">
+        <img src="image/Tuck-Shops-02.jpg" alt="Tuck shop" class="shop-image">
+
+        </div>
+        <div class="text-section">
+            <h2>Convenience And Customization</h2>
+            <p>
+                Our tuck shops are tailored to meet the unique needs of schools, hospitals, corporates, 
+                and large residential premises. We offer highly customizable menus, allowing you to choose 
+                from a wide range of delicious and nutritious options. Additionally, our flexible pricing 
+                options are designed to accommodate various budgets, making it easier for you to provide 
+                top-quality food services to your community.
+            </p>
+        </div>
+    </div>
+    <div class="container2">
+    <div class="text-section">
+        <h2>Convenience And Customization</h2>
+        <p>
+            Our tuck shops are tailored to meet the unique needs of schools, hospitals, corporates, 
+            and large residential premises. We offer highly customizable menus, allowing you to choose 
+            from a wide range of delicious and nutritious options. Additionally, our flexible pricing 
+            options are designed to accommodate various budgets, making it easier for you to provide 
+            top-quality food services to your community.
+        </p>
+    </div>
+    <div class="image-section">
+        <img src="image/Tuck-Shops-02.jpg" alt="Tuck shop" class="shop-image">
+    </div>
+</div>
+    <!-- Main Contact Section -->
+    <div class="contact-section">
+        <div class="contact-info">
+            <h1>Talk with THF Kitchens for 15 minutes</h1>
+            <p>Learn how our popular amenity can help your team</p>
+            <img src="image\Talk-to-Us.png" alt="Communication" class="contact-image">
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <form id="talkForm">
+                <input type="text" id="name" name="name" placeholder="Complete Name" required>
+                <input type="text" id="company" name="company" placeholder="Company Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+                <input type="text" id="city" name="city" placeholder="City" required>
+                <textarea id="message" name="message" placeholder="Your Message Here..." required></textarea>
+                <p>Your email is safe with us. We hate SPAM too.</p>
+                <button type="submit">Let's Talk</button>
+            </form>
+        </div>
+    </div>
 
     <!-- Footer Section -->
     <footer>

@@ -7,7 +7,6 @@ body {
 }
 
 /* Header Styles */
-/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -15,9 +14,9 @@ header {
     background-color: #fff;
     padding: 10px 50px;
     border-bottom: 2px solid #f4f4f4;
-    position: sticky; /* Makes the header stick */
-    top: 0; /* Sticks to the top of the viewport */
-    z-index: 1000; /* Ensures it stays on top of other elements */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 /* Logo Styles */
@@ -33,9 +32,8 @@ nav ul {
     gap: 20px;
     padding: 0;
     margin: 0;
-    background-color: white; /* Ensures background is solid while scrolling */
+    background-color: white;
 }
-
 
 nav ul li {
     position: relative;
@@ -57,7 +55,7 @@ nav ul li a.btn-quote {
 
 /* Dropdown Styles */
 .dropdown-content {
-    display: none; /* Hidden by default */
+    display: none;
     position: absolute;
     background-color: #fff;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
@@ -83,12 +81,10 @@ nav ul li a.btn-quote {
     background-color: #f1f1f1;
 }
 
-/* Show dropdown on hover */
 .dropdown:hover .dropdown-content {
-    display: block; /* Show the dropdown menu */
+    display: block;
 }
 
-/* Additional Styles for hover */
 nav ul li a:hover {
     color: #c0392b;
 }
@@ -132,15 +128,16 @@ nav ul li a:hover {
     max-width: 100%;
     height: auto;
 }
+
 /* Feature Section */
 .features {
-    background-color: #ecf0f1; /* Light background for contrast */
+    background-color: #ecf0f1;
     padding: 40px 30px;
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
@@ -153,40 +150,41 @@ nav ul li a:hover {
 }
 
 .feature-box:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
+    transform: translateY(-5px);
 }
 
 .icon {
-    font-size: 3rem; /* Size for icons */
+    font-size: 3rem;
     text-align: center;
-    margin-bottom: 10px; /* Spacing below the icon */
+    margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 1.5rem; /* Heading size */
-    margin-bottom: 10px; /* Spacing below the heading */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 p {
-    font-size: 1rem; /* Paragraph size */
-    color: #555; /* Text color */
+    font-size: 1rem;
+    color: #555;
 }
 
-/* Media Queries for Responsive Design */
+/* Responsive Design */
 @media screen and (max-width: 768px) {
     .container {
-        grid-template-columns: 1fr; /* Stack cards in a single column on smaller screens */
+        grid-template-columns: 1fr;
     }
 
     .hero h1 {
-        font-size: 2rem; /* Adjust hero heading size on smaller screens */
+        font-size: 2rem;
     }
 
     .hero p {
-        font-size: 1rem; /* Adjust hero paragraph size */
+        font-size: 1rem;
     }
 }
-.container1 {
+
+.container1, .container2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -214,25 +212,12 @@ p {
     padding: 20px;
 }
 
-h2 {
-    color: #c49a00;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 1.2em;
-    color: #555;
-    line-height: 1.6;
-}
-
 @media (max-width: 768px) {
-    .container1 {
+    .container1, .container2 {
         flex-direction: column;
-        align-items: flex-start;
     }
 
-    .image-section, .text-section {
+    .text-section, .image-section {
         max-width: 100%;
     }
 
@@ -244,46 +229,7 @@ p {
         font-size: 1em;
     }
 }
-/* Container styling for image and text */
-.container2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-/* Text section styling */
-.text-section {
-    flex: 1;
-    max-width: 50%;
-    padding: 20px;
-}
-
-/* Image section styling */
-.image-section {
-    flex: 1;
-    max-width: 50%;
-    padding: 20px;
-}
-
-/* Image styling */
-.shop-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* For smaller screens, adjust layout */
-@media (max-width: 768px) {
-    .container2 {
-        flex-direction: column;
-    }
-    .text-section, .image-section {
-        max-width: 100%;
-    }
-}
 .contact-section {
     display: flex;
     justify-content: space-between;
@@ -307,12 +253,6 @@ p {
 .contact-info p {
     font-size: 1.1rem;
     margin-bottom: 20px;
-}
-
-.contact-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
 }
 
 .contact-form {
@@ -373,11 +313,75 @@ p {
     }
 }
 
-/* Footer */
+/* Footer Section */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #f5f5f5;
+    padding: 40px 0;
     text-align: center;
-    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+.logo-section img {
+    width: 100px;
+}
+
+.social-media-section {
+    text-align: center;
+}
+
+.social-media-section p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.social-icons a img {
+    width: 30px;
+}
+.social-icons i {
+    font-size: 40px; /* Adjust size here */
+    margin: 0 15px; /* Space between icons */
+    color: #333; /* Default color */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add a smooth hover effect */
+}
+
+.social-icons i:hover {
+    color: #c0392b; /* Changes color on hover */
+    transform: scale(1.1); /* Slightly enlarges icon on hover */
+}
+
+.contact-section p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.contact-section a {
+    text-decoration: none;
+    color: #a88643;
+    font-size: 1.2em;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
     margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+    color: #333;
 }

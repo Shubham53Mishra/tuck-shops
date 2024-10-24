@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,9 +17,33 @@
 
         <nav>
             <ul>
-                <li><a href="#">For Businesses</a></li>
-                <li><a href="#">For Consumers</a></li>
-                <li><a href="#">Popups</a></li>
+                <li class="dropdown">
+                    <a href="#">For Businesses</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Cafeteria Management</a></li>
+                        <li><a href="#">Corporate Meals</a></li>
+                        <li><a href="#">Tuck Shops</a></li>
+                        <li><a href="#">Events and Celebrations</a></li>
+                        <li><a href="#">Meal and Snack Box</a></li>
+                        <li><a href="#">Pantry Fills</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">For Consumers</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Consumer Services</a></li>
+                        <li><a href="#">Subscription Meals</a></li>
+                        <li><a href="#">Customized Catering</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Popups</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Corporate Popups</a></li>
+                        <li><a href="#">Event Popups</a></li>
+                        <li><a href="#">Festival Popups</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#" class="btn-quote">Get a Quote</a></li>

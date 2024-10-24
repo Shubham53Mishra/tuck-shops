@@ -6,6 +6,8 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header Styles */
+/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -13,52 +15,85 @@ header {
     background-color: #fff;
     padding: 10px 50px;
     border-bottom: 2px solid #f4f4f4;
+    position: sticky; /* Makes the header stick */
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 1000; /* Ensures it stays on top of other elements */
 }
 
-/* Center the navigation menu */
-nav {
-    display: flex;
-    justify-content: center; /* Centers the <ul> inside the <nav> */
-    flex: 1; /* Ensures the nav takes up the remaining space */
+/* Logo Styles */
+.logo img {
+    height: 80px;
+    margin-left: 90px;
 }
 
+/* Navigation Styles */
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px; /* Space between items */
+    gap: 20px;
     padding: 0;
     margin: 0;
+    background-color: white; /* Ensures background is solid while scrolling */
 }
 
+
 nav ul li {
-    display: inline;
+    position: relative;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
     font-size: 16px;
+    padding: 10px;
 }
 
 nav ul li a.btn-quote {
     background-color: #c0392b;
-    color: #fff;
+    color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-left: 100px; /* Moves the button 50px to the right */
 }
 
-
-.logo {
-    display: flex;
-    justify-content: flex-start; /* Aligns logo to the left */
-    margin-left: 120px; /* Moves the logo 50px to the right */
+/* Dropdown Styles */
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 200px;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-.logo img {
-    height: 80px;
+.dropdown-content li {
+    padding: 10px;
+    list-style: none;
 }
 
+.dropdown-content li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown-content li a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block; /* Show the dropdown menu */
+}
+
+/* Additional Styles for hover */
+nav ul li a:hover {
+    color: #c0392b;
+}
+
+/* Hero Section */
 .hero {
     text-align: center;
     background-color: #fff;
@@ -87,11 +122,18 @@ nav ul li a.btn-quote {
     font-weight: bold;
 }
 
+/* Content Section */
 .content {
     text-align: center;
     padding: 50px;
 }
 
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;

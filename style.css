@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 50px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+/* Center the navigation menu */
+nav {
+    display: flex;
+    justify-content: center; /* Centers the <ul> inside the <nav> */
+    flex: 1; /* Ensures the nav takes up the remaining space */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between items */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav ul li a.btn-quote {
+    background-color: #c0392b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 100px; /* Moves the button 50px to the right */
+}
+
+
+.logo {
+    display: flex;
+    justify-content: flex-start; /* Aligns logo to the left */
+    margin-left: 120px; /* Moves the logo 50px to the right */
+}
+
+.logo img {
+    height: 80px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+}
+
+.hero h1 {
+    color: #c0392b;
+    font-size: 36px;
+}
+
+.hero p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.hero .btn-talk {
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}

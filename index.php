@@ -65,6 +65,40 @@
         </section>
     </main>
 
+   <!-- Feature Section -->
+   <section class="features">
+            <div class="container">
+                <!-- Card 1: Unmatched Variety -->
+                <div class="feature-box">
+                    <div class="icon">&#9632;&#9651;&#9733;&#9650;</div>
+                    <h2>Unmatched Variety</h2>
+                    <p>We offer a wide range of menu items at our counters. From healthy juices to gourmet sandwiches to delicious pastries and beverages, our selection caters to all tastes and preferences. We continually update our menu to include new and exciting options, ensuring there’s always something fresh and new for everyone.</p>
+                </div>
+
+                <!-- Card 2: Elegant and Modern Design -->
+                <div class="feature-box">
+                    <div class="icon">&#127970;</div>
+                    <h2>Elegant and Modern Design</h2>
+                    <p>Our aesthetically designed, colorful, and vibrant outlets fit perfectly in corporate cafeterias. Each kiosk is thoughtfully crafted to create an inviting and pleasant atmosphere, making the experience enjoyable. The modern design also optimizes space, providing an efficient layout that minimizes delay.</p>
+                </div>
+
+                <!-- Card 3: Quality and Hygiene -->
+                <div class="feature-box">
+                    <div class="icon">&#127869;</div>
+                    <h2>Quality and Hygiene</h2>
+                    <p>We use only high-quality raw materials for food preparation and place a strong emphasis on cleanliness during and after working hours. Our commitment to hygiene extends to every aspect of our operations.</p>
+                </div>
+
+                <!-- Card 4: Process-Oriented & Trained Staff -->
+                <div class="feature-box">
+                    <div class="icon">&#128104;&#8205;&#128295;</div>
+                    <h2>Process-Oriented & Trained Staff</h2>
+                    <p>Our staff undergo regular health checkups, background verification, and statutory compliance checks. We conduct regular audits and supervisor visits, ensuring all team members meet the highest standards.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Corporate Tuck Shops | All Rights Reserved</p>

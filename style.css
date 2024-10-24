@@ -132,8 +132,62 @@ nav ul li a:hover {
     max-width: 100%;
     height: auto;
 }
+/* Feature Section */
+.features {
+    background-color: #ecf0f1; /* Light background for contrast */
+    padding: 40px 30px;
+}
 
-/* Footer Styles */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 20px;
+}
+
+.feature-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.icon {
+    font-size: 3rem; /* Size for icons */
+    text-align: center;
+    margin-bottom: 10px; /* Spacing below the icon */
+}
+
+h2 {
+    font-size: 1.5rem; /* Heading size */
+    margin-bottom: 10px; /* Spacing below the heading */
+}
+
+p {
+    font-size: 1rem; /* Paragraph size */
+    color: #555; /* Text color */
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Stack cards in a single column on smaller screens */
+    }
+
+    .hero h1 {
+        font-size: 2rem; /* Adjust hero heading size on smaller screens */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Adjust hero paragraph size */
+    }
+}
+
+/* Footer */
 footer {
     background-color: #333;
     color: #fff;

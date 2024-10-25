@@ -130,17 +130,19 @@
             <img src="image/Tuck-Shops-02.jpg" alt="Tuck shop" class="shop-image">
         </div>
     </div>
-    <!-- Main Contact Section -->
+    </section>
+
+    <!-- Contact Section with AJAX Form Submission -->
     <div class="contact-section">
         <div class="contact-info">
             <h1>Talk with THF Kitchens for 15 minutes</h1>
             <p>Learn how our popular amenity can help your team</p>
-            <img src="image\Talk-to-Us.png" alt="Communication" class="contact-image">
+            <img src="image/Talk-to-Us.png" alt="Communication" class="contact-image">
         </div>
 
         <!-- Contact Form -->
         <div class="contact-form">
-            <form id="talkForm">
+            <form id="talkForm" method="POST">
                 <input type="text" id="name" name="name" placeholder="Complete Name" required>
                 <input type="text" id="company" name="company" placeholder="Company Name" required>
                 <input type="email" id="email" name="email" placeholder="Email" required>
@@ -150,6 +152,7 @@
                 <p>Your email is safe with us. We hate SPAM too.</p>
                 <button type="submit">Let's Talk</button>
             </form>
+            <div id="responseMessage"></div>
         </div>
     </div>
 
@@ -157,7 +160,7 @@
     <footer>
         <div class="footer-container">
             <div class="logo-section">
-                <img src="image\unnamed.png" alt="THF Kitchens Logo">
+                <img src="image/unnamed.png" alt="THF Kitchens Logo">
             </div>
             <div class="social-media-section">
                 <p>Find us on social media</p>
@@ -178,6 +181,8 @@
     </footer>
 
     <script src="script.js"></script>
+  
+  
 </body>
 
 </html>

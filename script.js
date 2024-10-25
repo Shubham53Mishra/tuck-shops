@@ -1,39 +1,20 @@
-document.addEventListener('DOMContentLoaded', () => {
-    console.log("Page loaded and ready.");
-    
-    // Example interaction: Alert on feature click
-    const featureBoxes = document.querySelectorAll('.feature-box');
-    
-    featureBoxes.forEach(box => {
-        box.addEventListener('click', () => {
-            alert("You clicked on: " + box.querySelector('h2').textContent);
-        });
-    });
+document.getElementById('talkForm').addEventListener('submit', function (e) {
+    e.preventDefault(); // Prevent page reload
 
-    // Handle form submission
-    document.getElementById('talkForm').addEventListener('submit', function(e) {
-        e.preventDefault();
+    // Gather form data
+    var formData = new FormData(this);
 
-        // Collect form data
-        const name = document.getElementById('name').value;
-        const company = document.getElementById('company').value;
-        const email = document.getElementById('email').value;
-        const phone = document.getElementById('phone').value;
-        const city = document.getElementById('city').value;
-        const message = document.getElementById('message').value;
-
-        // Output collected data (You can replace this with AJAX or API calls)
-        console.log("Form Submitted:");
-        console.log("Name:", name);
-        console.log("Company:", company);
-        console.log("Email:", email);
-        console.log("Phone:", phone);
-        console.log("City:", city);
-        console.log("Message:", message);
-
-        alert("Form submitted successfully! We will contact you shortly.");
-
-        // Clear form
-        document.getElementById('talkForm').reset();
+    // Send form data to the PHP file via AJAX
+    fetch('process_form.php', {
+        method: 'POST',
+        body: formData,
+    })
+    .then(response => response.text())
+    .then(result => {
+        // Display server response in the div
+        document.getElementById('responseMessage').innerHTML = result;
+    })
+    .catch(error => {
+        console.error('Error:', error); // Log any errors
     });
 });

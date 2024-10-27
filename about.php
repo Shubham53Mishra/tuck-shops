@@ -14,6 +14,64 @@
             padding: 0;
             background-color: white;
         }
+        /* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 50px;
+    border-bottom: 2px solid #f4f4f4;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo Styles */
+.logo img {
+    height: 80px;
+    margin-left: 90px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+}
+
+nav ul li a.btn-quote {
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+ 
+
+ 
+
+ 
+
+  
+
+nav ul li a:hover {
+    color: #c0392b;
+}
 
         /* General Styles */
         .container,
@@ -243,6 +301,21 @@
 </head>
 
 <body>
+<header>
+        <div class="logo">
+            <img src="image/unnamed.png" alt="THF Kitchens Logo">
+        </div>
+
+        <nav>
+            <ul>
+ 
+                
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" class="btn-quote">Get a Quote</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Hero Section with Chef Image and Text -->
     <div class="hero">

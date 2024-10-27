@@ -98,11 +98,10 @@
             </div>
         </div>
     </section>
-    </main>
+
     <div class="container1">
         <div class="image-section">
             <img src="image/Tuck-Shops-02.jpg" alt="Tuck shop" class="shop-image">
-
         </div>
         <div class="text-section">
             <h2>Convenience And Customization</h2>
@@ -115,6 +114,7 @@
             </p>
         </div>
     </div>
+
     <div class="container2">
         <div class="text-section">
             <h2>Convenience And Customization</h2>
@@ -130,7 +130,6 @@
             <img src="image/Tuck-Shops-02.jpg" alt="Tuck shop" class="shop-image">
         </div>
     </div>
-    </section>
 
     <!-- Contact Section with AJAX Form Submission -->
     <div class="contact-section">
@@ -180,8 +179,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-  
     <script src="script.js"></script>
     <script>
         document.getElementById('talkForm').addEventListener('submit', function (e) {

@@ -13,38 +13,11 @@
     <!-- Header Section -->
     <header>
         <div class="logo">
-            <img src="image/unnamed.png" alt="THF Kitchens Logo">
+            <img src="./image/MunchMart Logo.png" alt="THF Kitchens Logo">
         </div>
 
         <nav>
             <ul>
-                <li class="dropdown">
-                    <a href="#">For Businesses</a>
-                    <ul class="dropdown-content">
-                        <li><a href="#">Cafeteria Management</a></li>
-                        <li><a href="#">Corporate Meals</a></li>
-                        <li><a href="#">Tuck Shops</a></li>
-                        <li><a href="#">Events and Celebrations</a></li>
-                        <li><a href="#">Meal and Snack Box</a></li>
-                        <li><a href="#">Pantry Fills</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">For Consumers</a>
-                    <ul class="dropdown-content">
-                        <li><a href="#">Consumer Services</a></li>
-                        <li><a href="#">Subscription Meals</a></li>
-                        <li><a href="#">Customized Catering</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Popups</a>
-                    <ul class="dropdown-content">
-                        <li><a href="#">Corporate Popups</a></li>
-                        <li><a href="#">Event Popups</a></li>
-                        <li><a href="#">Festival Popups</a></li>
-                    </ul>
-                </li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#" class="btn-quote">Get a Quote</a></li>
@@ -61,9 +34,13 @@
             <a href="#" class="btn-talk">Talk to Us</a>
         </section>
 
+        <!-- <section class="content">
+            <img src="image/Munch Mart Reference.png" alt="Snack Bar">
+        </section> -->
         <section class="content">
-            <img src="image/Tuck-Shops-01.jpg" alt="Snack Bar">
-        </section>
+    <img src="image/Munch Mart Reference.png" alt="Snack Bar" style="width: 50%; height: auto;">
+</section>
+
     </main>
 
     <!-- Feature Section -->
@@ -101,7 +78,7 @@
 
     <div class="container1">
         <div class="image-section">
-            <img src="image/Tuck-Shops-02.jpg" alt="Tuck shop" class="shop-image">
+            <img src="image/MUNCH MART Reference 2.png" alt="Tuck shop" class="shop-image">
         </div>
         <div class="text-section">
             <h2>Convenience And Customization</h2>
@@ -127,7 +104,7 @@
             </p>
         </div>
         <div class="image-section">
-            <img src="image/Tuck-Shops-02.jpg" alt="Tuck shop" class="shop-image">
+            <img src="image/MUNCH MART Reference 2.png" alt="Tuck shop" class="shop-image">
         </div>
     </div>
 
@@ -159,7 +136,7 @@
     <footer>
         <div class="footer-container">
             <div class="logo-section">
-                <img src="image/unnamed.png" alt="THF Kitchens Logo">
+                <img src="image/MunchMart Logo.png" alt="THF Kitchens Logo">
             </div>
             <div class="social-media-section">
                 <p>Find us on social media</p>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,10 +60,15 @@
         }
 
         nav ul li a.btn-quote {
-            background-color: #c0392b;
-            color: white;
+            background-color: yellow;
+            color: black;
             padding: 10px 20px;
             border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: black;
+            color: white;
         }
 
         .contact-section {
@@ -146,7 +152,7 @@
         .talk-info h1 {
             font-size: 2.5rem;
             color: #c49a00;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .talk-info p {
@@ -159,6 +165,7 @@
             height: auto;
             max-width: 400px;
             border-radius: 8px;
+          
         }
 
         .contact-form {
@@ -167,6 +174,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 250px; /* Added top margin */
         }
 
         .contact-form form {
@@ -174,7 +182,7 @@
             flex-direction: column;
         }
 
-        .contact-form input, 
+        .contact-form input,
         .contact-form textarea {
             margin-bottom: 15px;
             padding: 10px;
@@ -190,7 +198,7 @@
         }
 
         .contact-form button {
-            background-color: #c0392b;
+            background-color: yellow;
             color: white;
             padding: 12px;
             font-size: 1rem;
@@ -201,7 +209,8 @@
         }
 
         .contact-form button:hover {
-            background-color: #a83229;
+            background-color: black;
+            color: white;
         }
 
         .contact-form p {
@@ -214,48 +223,49 @@
         .footer {
             background-color: #f2e8d8;
             padding: 30px 20px;
-            text-align: center; /* Center all text in the footer */
+            text-align: center;
             margin-top: 40px;
             width: 100%;
         }
 
         .footer-content {
-            display: flex; /* Use flexbox to align items */
-            justify-content: space-between; /* Space between logo and contact info */
-            align-items: center; /* Center align vertically */
-            padding: 0 50px; /* Optional: Add horizontal padding */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 50px;
         }
 
         .logo-section img {
-            max-width: 100px; /* Set a max width for the logo */
-            height: auto; /* Maintain aspect ratio */
+            max-width: 100px;
+            height: auto;
             margin-left: 110px;
         }
 
         .social-icons {
-            display: flex; /* Use flexbox to arrange icons */
-            justify-content: center; /* Center the icons horizontally */
-            margin: 0 20px; /* Optional: add some margin around the icons */
+            display: flex;
+            justify-content: center;
+            margin: 0 20px;
         }
 
         .social-icons a {
-            margin: 0 10px; /* Space between icons */
+            margin: 0 10px;
             text-decoration: none;
             color: #666;
-            font-size: 24px; 
+            font-size: 24px;
         }
 
         .contacts-info {
-            text-align: center; /* Center align contact info */
-            margin-right: 20px; /* Adjust this value for spacing */
+            text-align: center;
+            margin-right: 20px;
         }
 
         .contact-info p {
-            margin: 0; /* Remove default margin */
+            margin: 0;
             margin-right: 20px;
         }
-    </style> 
+    </style>
 </head>
+
 <body>
     <!-- Header Section -->
     <header>
@@ -264,6 +274,7 @@
         </div>
         <nav>
             <ul>
+                <li><a href="index.php">Home</a></li>   
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="ContactUs.php">Contact Us</a></li>
                 <li><a href="#" class="btn-quote">Get a Quote</a></li>
@@ -275,7 +286,7 @@
         <h2>OUR ADDRESS</h2>
         <h3>WHERE YOU CAN FIND US</h3>
         <div class="underline"></div>
-        
+
         <div class="contact-info">
             <div class="info-item">
                 <div class="icon">&#128205;</div>
@@ -320,7 +331,7 @@
             </div>
         </div>
     </section>
-    
+
     <div class="footer">
         <div class="footer-content">
             <div class="logo-section">
@@ -339,4 +350,5 @@
         <p>&copy; 2024 THF Kitchens. All rights reserved.</p>
     </div>
 </body>
+
 </html>

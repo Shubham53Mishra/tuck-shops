@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THF Kitchens & Bhushan Ingle</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+<!-- 
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,64 +14,65 @@
             padding: 0;
             background-color: white;
         }
+
         /* Header Styles */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    padding: 10px 50px;
-    border-bottom: 2px solid #f4f4f4;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            padding: 10px 50px;
+            border-bottom: 2px solid #f4f4f4;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
 
-/* Logo Styles */
-.logo img {
-    height: 80px;
-    margin-left: 90px;
-}
+        /* Logo Styles */
+        .logo img {
+            height: 80px;
+            margin-left: 90px;
+        }
 
-/* Navigation Styles */
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-    background-color: white;
-}
+        /* Navigation Styles */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+            background-color: white;
+        }
 
-nav ul li {
-    position: relative;
-}
+        nav ul li {
+            position: relative;
+        }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    padding: 10px;
-}
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            padding: 10px;
+        }
 
-nav ul li a.btn-quote {
-    background-color: #c0392b;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
+        nav ul li a.btn-quote {
+            background-color: #c0392b;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
 
- 
 
- 
 
- 
 
-  
 
-nav ul li a:hover {
-    color: #c0392b;
-}
+
+
+
+
+        nav ul li a:hover {
+            color: #c0392b;
+        }
 
         /* General Styles */
         .container,
@@ -225,47 +226,59 @@ nav ul li a:hover {
         }
 
         /* Social media and contact section */
-       
+
         .footer {
-    background-color: #f2e8d8;
-    padding: 30px 20px;
-    text-align: center; /* Center all text in the footer */
-    margin-top: 40px;
-}
+            background-color: #f2e8d8;
+            padding: 30px 20px;
+            text-align: center;
+            /* Center all text in the footer */
+            margin-top: 40px;
+        }
 
-.footer-content {
-    display: flex; /* Use flexbox to align items */
-    justify-content: space-between; /* Space between logo and contact info */
-    align-items: center; /* Center align vertically */
-}
+        .footer-content {
+            display: flex;
+            /* Use flexbox to align items */
+            justify-content: space-between;
+            /* Space between logo and contact info */
+            align-items: center;
+            /* Center align vertically */
+        }
 
-.logo-section img {
-    max-width: 100px; /* Set a max width for the logo */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 110px;
-}
+        .logo-section img {
+            max-width: 100px;
+            /* Set a max width for the logo */
+            height: auto;
+            /* Maintain aspect ratio */
+            margin-left: 110px;
+        }
 
-.social-icons {
-    display: flex; /* Use flexbox to arrange icons */
-    justify-content: center; /* Center the icons horizontally */
-    margin: 0 20px; /* Optional: add some margin around the icons */
-}
+        .social-icons {
+            display: flex;
+            /* Use flexbox to arrange icons */
+            justify-content: center;
+            /* Center the icons horizontally */
+            margin: 0 20px;
+            /* Optional: add some margin around the icons */
+        }
 
-.social-icons a {
-    margin: 0 10px; /* Space between icons */
-    text-decoration: none;
-    color: #666;
-    font-size: 24px; 
-}
+        .social-icons a {
+            margin: 0 10px;
+            /* Space between icons */
+            text-decoration: none;
+            color: #666;
+            font-size: 24px;
+        }
 
-.contact-info {
-    text-align: center; /* Center align contact info */
-}
+        .contact-info {
+            text-align: center;
+            /* Center align contact info */
+        }
 
-.contact-info p {
-    margin: 0; /* Remove default margin */
-    margin-right: 100px;
-}
+        .contact-info p {
+            margin: 0;
+            /* Remove default margin */
+            margin-right: 100px;
+        }
 
 
         /* Responsive Styles */
@@ -297,19 +310,19 @@ nav ul li a:hover {
                 margin: 20px auto;
             }
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
-<header>
+    <header>
         <div class="logo">
-            <img src="image/unnamed.png" alt="THF Kitchens Logo">
+            <img src="image/MunchMart Logo.png" alt="THF Kitchens Logo">
         </div>
 
         <nav>
             <ul>
- 
-                
+
+
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#" class="btn-quote">Get a Quote</a></li>
@@ -352,7 +365,7 @@ nav ul li a:hover {
         <div class="profile">
             <img src="profile-placeholder.png" alt="Profile Picture">
             <div>
-                <h1>Bhushan Ingle</h1>
+                <h1>ABCD</h1>
                 <h2>Founder</h2>
             </div>
         </div>
@@ -368,8 +381,8 @@ nav ul li a:hover {
         <div class="profile">
             <img src="profile-placeholder.png" alt="Profile Picture">
             <div>
-                <h1>Bhushan Ingle</h1>
-                <h2>Founder</h2>
+                <h1>ABCD</h1>
+                <h2> CO-Founder</h2>
             </div>
         </div>
         <hr>
@@ -404,24 +417,24 @@ nav ul li a:hover {
     </div>
 
     <!-- Footer Section with Social Media and Contact Info -->
-  <!-- Footer Section with Logo, Social Media, and Contact Info -->
-<div class="footer">
-    <div class="footer-content">
-        <div class="logo-section">
-            <img src="image/unnamed.png" alt="THF Kitchens Logo" style="max-width: 100px;"> <!-- Adjust the max-width as needed -->
+    <!-- Footer Section with Logo, Social Media, and Contact Info -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="logo-section">
+                <img src="image/MunchMart Logo.png" alt="THF Kitchens Logo" style="max-width: 100px;"> <!-- Adjust the max-width as needed -->
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="contact-info">
+                <p>We’re always happy to help.</p>
+                <p>munchmart2024@gmail.com</p>
+            </div>
         </div>
-        <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-        <div class="contact-info">
-            <p>We’re always happy to help.</p>
-            <p>info@thfkitchens.com</p>
-        </div>
+        <p>&copy; 2024 THF Kitchens. All rights reserved.</p>
     </div>
-    <p>&copy; 2024 THF Kitchens. All rights reserved.</p>
-</div>
 
 </body>
 

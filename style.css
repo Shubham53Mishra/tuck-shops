@@ -47,46 +47,20 @@ nav ul li a {
 }
 
 nav ul li a.btn-quote {
-    background-color: #c0392b;
-    color: white;
+    background-color: yellow;
+    color: black;
     padding: 10px 20px;
     border-radius: 5px;
 }
 
-/* Dropdown Styles */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-    min-width: 200px;
-    border-radius: 5px;
-    padding: 10px;
-}
+/* Dropdown Styles */ 
 
-.dropdown-content li {
-    padding: 10px;
-    list-style: none;
-}
 
-.dropdown-content li a {
-    text-decoration: none;
-    color: #333;
-    display: block;
-    padding: 10px;
-}
 
-.dropdown-content li a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 nav ul li a:hover {
-    color: #c0392b;
+    background-color: black;
+    color: white;
 }
 
 /* Hero Section */
@@ -97,7 +71,7 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-    color: #c0392b;
+    color: black;
     font-size: 36px;
 }
 
@@ -110,13 +84,15 @@ nav ul li a:hover {
 }
 
 .hero .btn-talk {
-    background-color: #c0392b;
-    color: white;
+    background-color: yellow;
+    color: black;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
 }
+
+
 
 /* Content Section */
 .content {
@@ -246,7 +222,7 @@ p {
 
 .contact-info h1 {
     font-size: 2.5rem;
-    color: #c49a00;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -284,8 +260,8 @@ p {
 }
 
 .contact-form button {
-    background-color: #c0392b;
-    color: white;
+    background-color: yellow;
+    color: black;
     padding: 12px;
     font-size: 1rem;
     border: none;
@@ -295,7 +271,8 @@ p {
 }
 
 .contact-form button:hover {
-    background-color: #a83229;
+    background-color: black;
+    color: white;
 }
 
 @media (max-width: 768px) {

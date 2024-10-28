@@ -77,7 +77,7 @@
             align-items: center;
             padding: 50px;
             background-color: #f8f8f8;
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
         }
 

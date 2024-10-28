@@ -360,38 +360,8 @@
         </div>
     </div>
 
-    <!-- Founder Section: Bhushan Ingle -->
-    <div class="container founder-section">
-        <div class="profile">
-            <img src="profile-placeholder.png" alt="Profile Picture">
-            <div>
-                <h1>ABCD</h1>
-                <h2>Founder</h2>
-            </div>
-        </div>
-        <hr>
-        <div class="content">
-            <p>Embarking on my professional journey, I graduated with a focus on Ancient History and Political Science, leading to a successful tenure in international BPOs. The pivotal moment came when I transitioned to a role in a large conglomerate where catered lunches were common practice.</p>
-            <p>Recognizing an untapped potential in the food space, I envisioned offering fresh, culturally diverse meals beyond the monotonous cart sandwiches. This vision materialized in 2011 with the establishment of The Highness Foods.</p>
-        </div>
-    </div>
-
-    <!-- Additional Founder Section -->
-    <div class="container founder-section">
-        <div class="profile">
-            <img src="profile-placeholder.png" alt="Profile Picture">
-            <div>
-                <h1>ABCD</h1>
-                <h2> CO-Founder</h2>
-            </div>
-        </div>
-        <hr>
-        <div class="content">
-            <p>Embarking on my professional journey, I graduated with a focus on Ancient History and Political Science, leading to a successful tenure in international BPOs. The pivotal moment came when I transitioned to a role in a large conglomerate where catered lunches were common practice.</p>
-            <p>Recognizing an untapped potential in the food space, I envisioned offering fresh, culturally diverse meals beyond the monotonous cart sandwiches. This vision materialized in 2011 with the establishment of The Highness Foods.</p>
-        </div>
-    </div>
-
+   
+    
     <!-- Features Section -->
     <div class="container">
         <h2>We Love To Cook!</h2>

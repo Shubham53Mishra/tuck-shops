@@ -37,7 +37,7 @@
         </section>
 
         <section class="content">
-            <img src="image/Munch Mart Reference.png" alt="Snack Bar" style="width: 50%; height: auto;">
+            <img src="image/MUNCH MART Reference 2.png" alt="Snack Bar" style="width: 50%; height: auto;">
         </section>
     </main>
 
@@ -69,13 +69,14 @@
 
     <div class="container1">
         <div class="image-section">
-            <img src="image/MUNCH MART Reference 2.png" alt="Tuck shop" class="shop-image">
+            <img src="image/MUNCH MART Reference.png" alt="Tuck shop" class="shop-image">
         </div>
         <div class="text-section">
             <h2>Convenience And Customization</h2>
             <p>Our tuck shops are tailored to meet the unique needs of schools, hospitals, corporates, and large residential premises. We offer highly customizable menus, allowing you to choose from a wide range of delicious and nutritious options. Additionally, our flexible pricing options are designed to accommodate various budgets, making it easier for you to provide top-quality food services to your community.</p>
         </div>
     </div>
+    
 
     <div class="contact-section">
         <div class="contact-info">

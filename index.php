@@ -101,23 +101,25 @@
     </div>
 
     <!-- Footer Section -->
-    <!-- <div class="footer">
+   
+    
+    <div class="footer">
         <div class="footer-content">
             <div class="logo-section">
-                <img src="image/MunchMart Logo.png" alt="THF Kitchens Logo">
+                <img src="image/MunchMart Logo.png" alt="THF Kitchens Logo" style="max-width: 100px;">
             </div>
             <div class="social-icons">
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <div class="contact-info">
+            <div class="contacts-info">
                 <p>We’re always happy to help.</p>
-                <p>info@thfkitchens.com</p>
+                <p>munchmart2024@gmail.com</p>
             </div>
         </div>
         <p>&copy; 2024 THF Kitchens. All rights reserved.</p>
-    </div> -->
+    </div>
 
     <script src="script.js"></script>
     <script>

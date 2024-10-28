@@ -47,23 +47,24 @@
             <div class="feature-box">
                 <div class="icon">&#9632;&#9651;&#9733;&#9650;</div>
                 <h2>Unmatched Variety</h2>
-                <p>We offer a wide range of menu items at our counters. From healthy juices to gourmet sandwiches to delicious pastries and beverages, our selection caters to all tastes and preferences. We continually update our menu to include new and exciting options, ensuring there’s always something fresh and new for everyone.</p>
-            </div>
+                <p>  A wide range of menu items is available at our counters, designed to cater to diverse tastes and preferences. From refreshing, healthy juices to gourmet sandwiches, delectable pastries, and a selection of beverages, each item reflects our dedication to quality. We regularly update our menu with exciting new options, ensuring there’s always something fresh and enjoyable for everyone to savor</p>
+             </div>
             <div class="feature-box">
                 <div class="icon">&#127970;</div>
                 <h2>Elegant and Modern Design</h2>
-                <p>Our aesthetically designed, colorful, and vibrant outlets fit perfectly in corporate cafeterias. Each kiosk is thoughtfully crafted to create an inviting and pleasant atmosphere, making the experience enjoyable. The modern design also optimizes space, providing an efficient layout that minimizes delay.</p>
-            </div>
+                <p>
+                Our attractively designed and vibrant outlets perfectly complement corporate cafeterias. Each unit is thoughtfully crafted to create a welcoming and enjoyable atmosphere, enhancing the overall experience for all. The contemporary design not only adds aesthetic appeal but also optimizes space, allowing for an efficient layout that reduces wait times and ensures seamless service</p>
+             </div>
             <div class="feature-box">
                 <div class="icon">&#127869;</div>
                 <h2>Quality and Hygiene</h2>
-                <p>We use only high-quality raw materials for food preparation and place a strong emphasis on cleanliness during and after working hours. Our commitment to hygiene extends to every aspect of our operations.</p>
+                <p>We exclusively use high-quality raw materials for food preparation and maintain a strict focus on cleanliness throughout all working hours. Our dedication to hygiene is a fundamental aspect of our operations, ensuring a safe and sanitary environment for both staff and customers.</p>
             </div>
             <div class="feature-box">
                 <div class="icon">&#128104;&#8205;&#128295;</div>
                 <h2>Process-Oriented & Trained Staff</h2>
-                <p>Our staff undergo regular health checkups, background verification, and statutory compliance checks. We conduct regular audits and supervisor visits, ensuring all team members meet the highest standards.</p>
-            </div>
+                <p>Our staff is highly skilled and dedicated to providing exceptional service at our tuck shop. We conduct regular health checkups, perform background checks, and ensure compliance with all necessary regulations. Each team member receives comprehensive training in food safety and customer service. Through consistent audits and supervisor evaluations, we ensure our staff exceeds the highest standards of quality and service.</p>
+             </div>
         </div>
     </section>
 

@@ -56,22 +56,14 @@
         }
 
         nav ul li a.btn-quote {
-            background-color: #c0392b;
-            color: white;
+            background-color: yellow;
+            color: black;
             padding: 10px 20px;
             border-radius: 5px;
         }
-
-
-
-
-
-
-
-
-
         nav ul li a:hover {
-            color: #c0392b;
+            background-color: black;
+            color: white;
         }
 
         /* General Styles */
@@ -84,7 +76,7 @@
 
         h1,
         h2 {
-            color: #b68516;
+            color: black;
         }
 
         p {
@@ -95,7 +87,7 @@
         .underline {
             width: 80px;
             height: 4px;
-            background-color: #b68516;
+            background-color: yellow;
             margin: 10px auto 30px;
         }
 
@@ -177,7 +169,7 @@
         hr {
             border: none;
             height: 1px;
-            background-color: #b68516;
+            background-color: yellow;
             margin: 20px 0;
         }
 
@@ -214,7 +206,7 @@
 
 
         .feature-box h2 {
-            color: #b68516;
+            color: black;
             font-size: 24px;
             margin-bottom: 15px;
         }
@@ -321,8 +313,6 @@
 
         <nav>
             <ul>
-
-
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#" class="btn-quote">Get a Quote</a></li>

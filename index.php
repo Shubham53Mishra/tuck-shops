@@ -45,7 +45,7 @@
     <section class="features">
         <div class="container">
             <div class="feature-box">
-                <div class="icon">&#9632;&#9651;&#9733;&#9650;</div>
+                <img src="image/Quality and hygiene .png" alt="Snack Bar" style="width: 50%; height: auto;">
                 <h2>Unmatched Variety</h2>
                 <p>  A wide range of menu items is available at our counters, designed to cater to diverse tastes and preferences. From refreshing, healthy juices to gourmet sandwiches, delectable pastries, and a selection of beverages, each item reflects our dedication to quality. We regularly update our menu with exciting new options, ensuring there’s always something fresh and enjoyable for everyone to savor</p>
              </div>

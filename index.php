@@ -79,7 +79,7 @@
         </div>
         <div class="text-section">
             <h2>Convenience And Customization</h2>
-            <p>Our tuck shops are tailored to meet the unique needs of schools, hospitals, corporates, and large residential premises. We offer highly customizable menus, allowing you to choose from a wide range of delicious and nutritious options. Additionally, our flexible pricing options are designed to accommodate various budgets, making it easier for you to provide top-quality food services to your community.</p>
+           <p>Our tuck shop is designed specifically for corporate needs, offering tailored solutions for your workplace. With customizable menus, you can select from a diverse array of delicious and nutritious options that suit your team's preferences. Our flexible pricing plans cater to different budgets, ensuring you can provide exceptional food services that meet the unique demands of your organization.</p>
         </div>
     </div>
 

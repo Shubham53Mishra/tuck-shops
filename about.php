@@ -331,9 +331,9 @@
 
         </div>
         <div class="text-content">
-            <h1>Experience the taste of THF Kitchens</h1>
+            <h1>Discover the delight flavours of MunchMart </h1>
             <hr>
-            <p>A team of culinary professionals dedicated to elevating your workplace dining.</p>
+            <p>A team of dining experts dedicated to enhancing your workplace meals.</p>
         </div>
     </div>
 
@@ -354,8 +354,9 @@
         <div class="geo-text">
             <h2>Geographic Reach</h2>
             <hr>
-            <p>Presently, we proudly serve the bustling corporate hubs of Mumbai and Pune, catering to esteemed organizations in these dynamic business landscapes.</p>
-            <p>We are committed to redefining corporate dining through technology, culinary expertise, and a dedication to exceptional service, ushering in the future of workplace dining.</p>
+            <p>Currently, we operate in the vibrant corporate landscapes of Gurgaon, Delhi, and Noida, serving esteemed organizations across these key business hubs. With over 18 tuck shops running across multiple offices.
+             <p>we are dedicated to transforming corporate dining through technology, culinary expertise, and exceptional service, setting the standard for workplace dining in the region.</p>
+             </p>
         </div>
     </div>
 
@@ -367,17 +368,17 @@
             <div class="feature-box">
                 <h2>Food Innovation</h2>
                 <hr>
-                <p>Each and every recipe of ours is a display of exceptional creativity from our top chefs. We test their knowledge and innovative practices daily.</p>
+                <p>Our recipes embody the peak of culinary creativity, crafted by our top chefs who continually push the boundaries of flavor and technique. Every day, they blend their expertise with inventive practices, ensuring each dish is a unique experience.</p>
             </div>
             <div class="feature-box">
                 <h2>Tasty Flavours</h2>
                 <hr>
-                <p>If it doesn't make you swing with joy, what's the point? Our menus will ring bells in your mind and soul, tailored to your tastes.</p>
+                <p>Food goes beyond just satisfying your appetite; it should revitalize and inspire you. Our menu is carefully curated to awaken your senses, featuring flavors that make a memorable impact and add a splash of energy to your day, right in the workplace.</p>
             </div>
             <div class="feature-box">
                 <h2>Perfect Planners</h2>
                 <hr>
-                <p>While you're busy with guests, we handle the cuisine. Our finest planners ensure your event is unforgettable.</p>
+                <p>While you focus on hosting, we take care of the cuisine. Our dedicated team ensures every detail is handled seamlessly, crafting a dining experience that leaves a lasting impression on your corporate gatherings.</p>
             </div>
         </div>
     </div>

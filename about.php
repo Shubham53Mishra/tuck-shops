@@ -254,13 +254,14 @@
             /* Center the icons horizontally */
             margin: 0 20px;
             /* Optional: add some margin around the icons */
+        ;
         }
 
         .social-icons a {
             margin: 0 10px;
             /* Space between icons */
             text-decoration: none;
-            color: #666;
+            color: black;
             font-size: 24px;
         }
 
@@ -273,6 +274,7 @@
             margin: 0;
             /* Remove default margin */
             margin-right: 100px;
+            
         }
 
 
@@ -400,7 +402,7 @@
                 <p>munchmart2024@gmail.com</p>
             </div>
         </div>
-        <p>&copy; 2024 THF Kitchens. All rights reserved.</p>
+        <p>&copy; 2024  Ridobiko Solutions Private Limited.All rights reserved.</p>
     </div>
 
 </body>

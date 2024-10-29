@@ -123,7 +123,7 @@
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <div class="contacts-info">
+            <div class="contacts-info" style="margin-right: 70px;">
                 <p>We’re always happy to help.</p>
                 <p>munchmart2024@gmail.com</p>
             </div>

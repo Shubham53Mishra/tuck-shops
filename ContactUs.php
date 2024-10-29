@@ -129,7 +129,7 @@
 
         .info-item p {
             font-size: 16px;
-            color: black;
+            color: #666;
             line-height: 1.5;
             font-weight: bold;
         }
@@ -166,6 +166,7 @@
             font-size: 1.1rem;
             /* margin-bottom: 20px; */
             font-weight: bold;
+            color: #666;
         }
 
         .talk-info img {
@@ -247,20 +248,8 @@
             text-align: center;
         }
 
-        .footer {
-            background-color: #f2e8d8;
-            padding: 30px 20px;
-            text-align: center;
-            margin-top: 40px;
-            width: 100%;
-        }
 
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 50px;
-        }
+
 
         .logo-section img {
             max-width: 100px;
@@ -289,6 +278,61 @@
         .contact-info p {
             margin: 0;
             margin-right: 20px;
+        }
+
+        .footer {
+            background-color: #f2e8d8;
+            padding: 30px 20px;
+            text-align: center;
+            /* Center all text in the footer */
+            margin-top: 40px;
+        }
+
+        .footer-content {
+            display: flex;
+            /* Use flexbox to align items */
+            justify-content: space-between;
+            /* Space between logo and contact info */
+            align-items: center;
+            /* Center align vertically */
+        }
+
+        .logo-section img {
+            max-width: 100px;
+            /* Set a max width for the logo */
+            height: auto;
+            /* Maintain aspect ratio */
+            margin-left: 110px;
+        }
+
+        .social-icons {
+            display: flex;
+            /* Use flexbox to arrange icons */
+            justify-content: center;
+            /* Center the icons horizontally */
+            margin: 0 20px;
+            /* Optional: add some margin around the icons */
+            ;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            /* Space between icons */
+            text-decoration: none;
+            color: black;
+            font-size: 24px;
+        }
+
+        .Contact-info {
+            text-align: center;
+            /* Center align contact info */
+        }
+
+        .Contact-info p {
+            margin: 0;
+            /* Remove default margin */
+            margin-right: 100px;
+
         }
     </style>
 </head>
@@ -323,15 +367,15 @@
             <div class="info-item">
                 <img src="image/CALL.png" alt="Call Us" style="width: 50px; height: auto;">
                 <h4>CALL US</h4>
-                <p>+91 89291 12775</p>
+                <p>+91 9411278008</p>
             </div>
             <div class="info-item">
-                <img src="image/message.png" alt="Email Address" style="width: 50px; height: auto;">
+                <img src="image/message.png" alt="Email Address" style="width: 70px; height: auto;">
                 <h4>EMAIL ADDRESS</h4>
                 <p>munchmart2024@gmail.com</p>
             </div>
             <div class="info-item">
-                <img src="image/WATCH.png" alt="Working Hours" style="width: 40px; height: auto;">
+                <img src="image/WATCH.png" alt="Working Hours" style="width: 55px; height: auto;">
                 <h4>WORKING HOURS</h4>
                 <p>Monday - Saturday 10 AM - 07 PM</p>
             </div>
@@ -375,13 +419,14 @@
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
-            <div class="contacts-info">
-                <p>We’re always happy to help.</p>
-                <p>munchmart2024@gmail.com</p>
+            <div class="Contacts-info">
+                <p style="margin-right: 80px; color: gray;">We’re always happy to help.</p>
+                <p style="margin-right: 80px; color: gray;">munchmart2024@gmail.com</p>
+
             </div>
         </div>
-        <p>&copy; 2024 THF Kitchens. All rights reserved.</p>
-    </div>
+        <p style="color: gray;">&copy; 2024 Ridobiko Solutions Private Limited. All rights reserved.</p>
+        </div>
 </body>
 
 </html>

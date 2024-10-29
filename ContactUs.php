@@ -129,35 +129,43 @@
 
         .info-item p {
             font-size: 16px;
-            color: #666;
+            color: black;
             line-height: 1.5;
+            font-weight: bold;
         }
 
         .talk-section {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 100%;
-            background-color: #fff;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
         }
 
         .talk-info {
             flex: 1;
-            margin-right: 20px;
+        }
+
+        .talk-info {
+            display: flex;
+            flex-direction: column;
+            /* Stack children vertically */
+            align-items: flex-start;
+            /* Align all items to the left */
         }
 
         .talk-info h1 {
             font-size: 2.5rem;
-            color: #c49a00;
-            margin-bottom: 20px;
+            color: black;
+            margin-bottom: 30px;
         }
 
         .talk-info p {
             font-size: 1.1rem;
-            margin-bottom: 20px;
+            /* margin-bottom: 20px; */
+            font-weight: bold;
         }
 
         .talk-info img {
@@ -165,8 +173,26 @@
             height: auto;
             max-width: 400px;
             border-radius: 8px;
-          
+            /* margin-bottom: 200px; */
+            /* Optional: add space above the image */
         }
+
+        .talk-info {
+            text-align: center;
+            /* Centers all content inside this container */
+        }
+
+        .talk-info a {
+            color: black;
+            /* Makes the link text black */
+            font-weight: bold;
+            /* Optional: Makes the link text bold */
+            display: inline-block;
+            margin-top: 10px;
+            /* Adds spacing between the elements */
+        }
+
+
 
         .contact-form {
             flex: 1;
@@ -174,7 +200,8 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 250px; /* Added top margin */
+            /* margin-bottom: 250px; */
+            /* Added top margin */
         }
 
         .contact-form form {
@@ -274,7 +301,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="index.php">Home</a></li>   
+                <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="ContactUs.php">Contact Us</a></li>
                 <li><a href="#" class="btn-quote">Get a Quote</a></li>
@@ -289,32 +316,38 @@
 
         <div class="contact-info">
             <div class="info-item">
-                <div class="icon">&#128205;</div>
+                <img src="image/location.png" alt="Office Location" style="width: 30px; height: auto;">
                 <h4>OFFICE LOCATION</h4>
                 <p>91 SpringBoard, C-2, Sector 1,<br>Noida</p>
             </div>
             <div class="info-item">
-                <div class="icon">&#128222;</div>
+                <img src="image/CALL.png" alt="Call Us" style="width: 50px; height: auto;">
                 <h4>CALL US</h4>
                 <p>+91 89291 12775</p>
             </div>
             <div class="info-item">
-                <div class="icon">&#9993;</div>
+                <img src="image/message.png" alt="Email Address" style="width: 50px; height: auto;">
                 <h4>EMAIL ADDRESS</h4>
-                <p>sales@cosmicbites.com</p>
+                <p>munchmart2024@gmail.com</p>
             </div>
             <div class="info-item">
-                <div class="icon">&#9200;</div>
+                <img src="image/WATCH.png" alt="Working Hours" style="width: 40px; height: auto;">
                 <h4>WORKING HOURS</h4>
                 <p>Monday - Saturday 10 AM - 07 PM</p>
             </div>
         </div>
 
+
         <div class="talk-section">
             <div class="talk-info">
-                <h1>Talk with THF Kitchens for 15 minutes</h1>
+                <h1 class="">Talk with THF Kitchens for 15 minutes</h1>
                 <p>Learn how our popular amenity can help your team</p>
-                <img src="image/contact-info.png" alt="Communication" class="contact-image">
+                <p>Mobile<a class="contact-link" href="tel:+91">+91 9411278008</a></p>
+                <p>Email: <a class="contact-link" href="mailto:munchmart2024@gmail.com">munchmart2024@gmail.com</a></p>
+
+
+
+                <img src="image/truk shop.png" alt="Communication" class="contact-image" style="width: 50%; height: auto;">
             </div>
             <div class="contact-form">
                 <form id="talkForm" method="POST">

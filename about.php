@@ -61,6 +61,7 @@
             padding: 10px 20px;
             border-radius: 5px;
         }
+
         nav ul li a:hover {
             background-color: black;
             color: white;
@@ -133,8 +134,10 @@
         .geo-text {
             flex: 1;
             padding: 20px;
-            text-align: right;
+            text-align: center;
+            /* Change this to center */
         }
+
 
         .geo-image {
             flex: 1;
@@ -313,10 +316,10 @@
 
         <nav>
             <ul>
-            <li><a href="index.php">Home</a></li>   
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="ContactUs.php">Contact Us</a></li>
-            <li><a href="#" class="btn-quote">Get a Quote</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="ContactUs.php">Contact Us</a></li>
+                <li><a href="#" class="btn-quote">Get a Quote</a></li>
             </ul>
         </nav>
     </header>
@@ -324,10 +327,12 @@
     <!-- Hero Section with Chef Image and Text -->
     <div class="hero">
         <div class="chef-image">
-            <img src="./image/about-us-01.png" alt="Chef Image">
+        <img src="./image/shop.png" alt="Chef Image" style="width: 70%; margin-left: 120px;">
+
         </div>
         <div class="text-content">
             <h1>Experience the taste of THF Kitchens</h1>
+            <hr>
             <p>A team of culinary professionals dedicated to elevating your workplace dining.</p>
         </div>
     </div>
@@ -336,7 +341,9 @@
     <div class="section about-section">
         <h2>About THF Kitchens</h2>
         <div class="underline"></div>
-        <p>From daily meals to impressive meeting spreads and unforgettable food festivals, we handle it all. Trust us to curate a memorable and enjoyable culinary experience for your team.</p>
+        <p>MunchMart is a trusted name in corporate food solutions, dedicated to enhancing the workplace experience through quality and convenience. our focus is on delivering fresh, delicious food with meticulous attention to presentation.
+
+            With a diverse, freshly prepared menu crafted daily, MunchMart brings creativity and quality to every item we serve. We’re committed to hygiene, visual appeal, and unparalleled taste, fulfilling our clients’ diverse needs with professionalism and passion for exceptional workplace dining experiences.</p>
     </div>
 
     <!-- Geographic Reach Section -->
@@ -346,18 +353,16 @@
         </div>
         <div class="geo-text">
             <h2>Geographic Reach</h2>
+            <hr>
             <p>Presently, we proudly serve the bustling corporate hubs of Mumbai and Pune, catering to esteemed organizations in these dynamic business landscapes.</p>
             <p>We are committed to redefining corporate dining through technology, culinary expertise, and a dedication to exceptional service, ushering in the future of workplace dining.</p>
         </div>
     </div>
 
-   
-    
+
+
     <!-- Features Section -->
     <div class="container">
-        <h2>We Love To Cook!</h2>
-        <p>We admire our customers and value their experiences. Our mission is to provide the best catering experience.</p>
-
         <div class="features">
             <div class="feature-box">
                 <h2>Food Innovation</h2>

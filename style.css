@@ -55,7 +55,12 @@ nav ul li a.btn-quote {
 
 /* Dropdown Styles */ 
 
-
+hr {  
+    border: none;
+    height: 1px;
+    background-color: yellow;
+    margin: 20px 0;
+}
 
 
 /* nav ul li a:hover {
@@ -138,7 +143,7 @@ h2 {
 
 p {
     font-size: 1rem;
-    color: #555;
+    color: black;
 }
 
 /* Responsive Design */
@@ -168,7 +173,7 @@ p {
 
 .image-section {
     flex: 1;
-    max-width:40%;
+    max-width:30%;
     padding: 20px;
 }
 
@@ -219,21 +224,32 @@ p {
 .contact-info h1 {
     font-size: 2.5rem;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .contact-info p {
     font-size: 1.1rem;
     margin-bottom: 20px;
+    font-weight: bold; 
 }
 
 .contact-form {
     flex: 1;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.contact-link {
+    color: black; /* Set text color to yellow */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-link:hover {
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
 
 .contact-form form {
     display: flex;

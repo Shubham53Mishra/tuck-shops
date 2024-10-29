@@ -45,23 +45,25 @@
     <section class="features">
         <div class="container">
             <div class="feature-box">
-                <img src="image/Quality and hygiene .png" alt="Snack Bar" style="width: 50%; height: auto;">
+            <img src="image/Unmatched Variety .png" alt="Snack Bar" style="width: 20%; height: auto; display: block; margin: 0 ;">
                 <h2>Unmatched Variety</h2>
                 <p>  A wide range of menu items is available at our counters, designed to cater to diverse tastes and preferences. From refreshing, healthy juices to gourmet sandwiches, delectable pastries, and a selection of beverages, each item reflects our dedication to quality. We regularly update our menu with exciting new options, ensuring there’s always something fresh and enjoyable for everyone to savor</p>
              </div>
             <div class="feature-box">
-                <div class="icon">&#127970;</div>
-                <h2>Elegant and Modern Design</h2>
+            <img src="image/Elegant and modern design .png" alt="Snack Bar" style="width: 20%; height: auto; display: block; margin: 0 ;">
+
+                 <h2>Elegant and Modern Design</h2>
                 <p>
                 Our attractively designed and vibrant outlets perfectly complement corporate cafeterias. Each unit is thoughtfully crafted to create a welcoming and enjoyable atmosphere, enhancing the overall experience for all. The contemporary design not only adds aesthetic appeal but also optimizes space, allowing for an efficient layout that reduces wait times and ensures seamless service</p>
              </div>
             <div class="feature-box">
-                <div class="icon">&#127869;</div>
+            <img src="image/Quality and hygiene .png" alt="Snack Bar" style="width: 20%; height: auto; display: block; margin: 0 ;">
                 <h2>Quality and Hygiene</h2>
                 <p>We exclusively use high-quality raw materials for food preparation and maintain a strict focus on cleanliness throughout all working hours. Our dedication to hygiene is a fundamental aspect of our operations, ensuring a safe and sanitary environment for both staff and customers.</p>
             </div>
             <div class="feature-box">
-                <div class="icon">&#128104;&#8205;&#128295;</div>
+            <img src="image/Trained staff.png" alt="Snack Bar" style="width: 20%; height: auto; display: block; margin: 0 ;">
+
                 <h2>Process-Oriented & Trained Staff</h2>
                 <p>Our staff is highly skilled and dedicated to providing exceptional service at our tuck shop. We conduct regular health checkups, perform background checks, and ensure compliance with all necessary regulations. Each team member receives comprehensive training in food safety and customer service. Through consistent audits and supervisor evaluations, we ensure our staff exceeds the highest standards of quality and service.</p>
              </div>

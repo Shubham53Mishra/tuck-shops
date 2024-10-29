@@ -128,19 +128,7 @@ nav ul li a:hover {
 .feature-box:hover {
     transform: translateY(-5px);
 }
-
-.icon {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.icon-image {
-    width: 3rem;          /* Matches font-size of other icons */
-    height: auto;         /* Maintains aspect ratio */
-    display: block;
-    margin: 0 auto;       /* Centers the image */
-}
+ 
 
 
 h2 {
@@ -299,46 +287,56 @@ p {
 }
 
 /* Footer Section */
+
 .footer {
     background-color: #f2e8d8;
     padding: 30px 20px;
-    text-align: center; /* Center all text in the footer */
+    text-align: center;
+    /* Center all text in the footer */
     margin-top: 40px;
-    width: 100%;
 }
 
 .footer-content {
-    display: flex; /* Use flexbox to align items */
-    justify-content: space-between; /* Space between logo and contact info */
-    align-items: center; /* Center align vertically */
-    padding: 0 50px; /* Optional: Add horizontal padding */
+    display: flex;
+    /* Use flexbox to align items */
+    justify-content: space-between;
+    /* Space between logo and contact info */
+    align-items: center;
+    /* Center align vertically */
 }
 
 .logo-section img {
-    max-width: 100px; /* Set a max width for the logo */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100px;
+    /* Set a max width for the logo */
+    height: auto;
+    /* Maintain aspect ratio */
     margin-left: 110px;
 }
 
 .social-icons {
-    display: flex; /* Use flexbox to arrange icons */
-    justify-content: center; /* Center the icons horizontally */
-    margin: 0 20px; /* Optional: add some margin around the icons */
+    display: flex;
+    /* Use flexbox to arrange icons */
+    justify-content: center;
+    /* Center the icons horizontally */
+    margin: 0 20px;
+    /* Optional: add some margin around the icons */
 }
 
 .social-icons a {
-    margin: 0 10px; /* Space between icons */
+    margin: 0 10px;
+    /* Space between icons */
     text-decoration: none;
     color: #666;
-    font-size: 24px; 
+    font-size: 24px;
 }
 
-.contacts-info {
-    text-align: center; /* Center align contact info */
-    margin-right: 20px; /* Adjust this value for spacing */
+.contact-info {
+    text-align: center;
+    /* Center align contact info */
 }
 
 .contact-info p {
-    margin: 0; /* Remove default margin */
-    margin-right: 20px;
+    margin: 0;
+    /* Remove default margin */
+    margin-right: 100px;
 }

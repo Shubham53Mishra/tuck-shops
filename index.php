@@ -31,7 +31,7 @@
     <main>
         <section class="hero">
             <h1>Corporate Tuck Shops</h1>
-            <p>We set up our tuck shops in Corporates, Schools, Factories, and building cafeterias. With nearly two decades of expertise, we specialize in establishing well-designed tuck shops that offer a variety of eateries and MRP supplies. Our commitment to excellence ensures workplace convenience and their immediate needs for a seamless workday experience.</p>
+         <p>we specialize in providing exceptional tuck shop services exclusively for corporate offices. We serve corporate hubs across Gurgaon, Delhi, and Noida, with over 18+ active tuck shops catering to various offices. Our commitment to quality, convenience, and hygiene is unwavering. Each tuck shop offers a carefully curated selection of fresh, delicious snacks and beverages, thoughtfully presented to meet the high expectations of today’s corporate professionals.</p>
             <p>Modern Tuck Shops with Extensive Menus at Best Rates</p>
             <a href="#" class="btn-talk">Talk to Us</a>
         </section>

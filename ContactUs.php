@@ -60,8 +60,8 @@
         }
 
         nav ul li a.btn-quote {
-            background-color: yellow;
-            color: black;
+            background-color: black;
+            color: yellow;
             padding: 10px 20px;
             border-radius: 5px;
         }
@@ -198,8 +198,8 @@
         }
 
         .contact-form button {
-            background-color: yellow;
-            color: white;
+            background-color: black;
+            color: yellow;
             padding: 12px;
             font-size: 1rem;
             border: none;

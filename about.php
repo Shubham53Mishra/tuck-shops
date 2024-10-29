@@ -56,8 +56,8 @@
         }
 
         nav ul li a.btn-quote {
-            background-color: yellow;
-            color: black;
+            background-color: black;
+            color: yellow;
             padding: 10px 20px;
             border-radius: 5px;
         }

@@ -47,8 +47,8 @@ nav ul li a {
 }
 
 nav ul li a.btn-quote {
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color: yellow;
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -58,10 +58,10 @@ nav ul li a.btn-quote {
 
 
 
-nav ul li a:hover {
+/* nav ul li a:hover {
     background-color: black;
     color: white;
-}
+} */
 
 /* Hero Section */
 .hero {
@@ -84,8 +84,8 @@ nav ul li a:hover {
 }
 
 .hero .btn-talk {
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color: yellow;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -256,8 +256,8 @@ p {
 }
 
 .contact-form button {
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color: yellow;
     padding: 12px;
     font-size: 1rem;
     border: none;

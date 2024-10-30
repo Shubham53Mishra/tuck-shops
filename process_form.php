@@ -51,17 +51,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $mail->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
                 $mail->SMTPAuth = true; // Enable SMTP authentication
                 $mail->Username = 'codermishra53@gmail.com'; // Your Gmail address
-                $mail->Password = 'ymhy wkhe tskr bwwe'; // Use your Gmail app-specific password
+                $mail->Password = 'rawu zsrd pgeo fyjb'; // Use your Gmail app-specific password
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption
                 $mail->Port = 587; // TCP port to connect to
 
                 // Recipients
-                $mail->setFrom('codermishra53@gmail.com', 'THF Kitchens');
+                $mail->setFrom('codermishra53@gmail.com', 'Munch Mart!');
                 $mail->addAddress($email); // Add the recipient (the person who filled the form)
-
+                $mail->addAddress('munchmart2024@gmail.com'); // Additional recipient (you)
                 // Content
                 $mail->isHTML(true); // Set email format to HTML
-                $mail->Subject = 'Thank you for contacting THF Kitchens!';
+                $mail->Subject = 'Thank you for contacting Munch Mart!';
                 $mail->Body = "
                     Hi $name,
                     <br><br>
@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     We will get back to you as soon as possible.
                     <br><br>
                     Best Regards,<br>
-                    THF Kitchens Team
+                   Munch Mart!  Team
                 ";
 
                 // Send the email

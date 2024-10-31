@@ -266,7 +266,7 @@
 
         .contact-info p {
             margin: 0;
-            margin-right: 100px;
+            font-size: 15px;
         }
 
         /* Responsive Styles */
@@ -344,22 +344,38 @@
                 padding: 10px;
                 display: flex;
                 justify-content: space-between;
+                /* Keep toggle button on the right */
                 align-items: center;
+                position: relative;
+                /* To allow positioning of elements */
             }
 
             .logo {
-                display: inline-block;
+                display: flex;
+                /* Use flex to center */
+                justify-content: center;
+                /* Center the logo */
+                flex: 1;
+                /* Allow the logo to take up space */
             }
 
             .logo img {
                 height: 50px;
-                margin-left: 0;
+                margin: 0;
+                /* Remove margin */
             }
 
             .menu-toggle {
                 display: inline-block;
+                position: absolute;
+                /* Position the button absolutely */
+                right: 10px;
+                /* Position on the right */
+                top: 10px;
+                /* Adjust vertical position */
             }
 
+            /* Navigation styles remain the same */
             nav ul {
                 display: none;
                 flex-direction: column;
@@ -440,17 +456,17 @@
         }
 
         .footer-content {
-        align-items: center;
-    }
+            align-items: center;
+        }
 
-    .logo-section img {
-        max-width: 80px;
-        margin: 0 auto;
-    }
+        .logo-section img {
+            max-width: 80px;
+            margin: 0 auto;
+        }
 
-    .social-icons {
-        font-size: 18px;
-    }
+        .social-icons {
+            font-size: 18px;
+        }
 
 
         /* Additional Media Query for 320px */
@@ -550,19 +566,19 @@
                 /* Stack elements */
             }
         }
+
         .footer-content {
-        align-items: center;
-    }
+            align-items: center;
+        }
 
-    .logo-section img {
-        max-width: 80px;
-        margin: 0 auto;
-    }
+        .logo-section img {
+            max-width: 80px;
+            margin: 0 auto;
+        }
 
-    .social-icons {
-        font-size: 18px;
-    }
-
+        .social-icons {
+            font-size: 18px;
+        }
     </style>
 
 </head>
@@ -659,7 +675,7 @@
                 <p>munchmart2024@gmail.com</p>
             </div>
         </div>
-        <p>&copy; 2024 Ridobiko Solutions Private Limited.All rights reserved.</p>
+        <p style="font-size: 16px;">&copy; 2024 Ridobiko Solutions Private Limited.All rights reserved.</p>
     </div>
     <script>
         function toggleMenu() {

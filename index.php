@@ -11,29 +11,26 @@
 
 <body>
     <!-- Header Section -->
+   
     <header>
-        <div class="logo">
-            <img src="./image/MunchMart Logo.png" alt="THF Kitchens Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="ContactUs.php">Contact Us</a></li>
-                <li><a href="#" class="btn-quote">Get a Quote</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="logo">
+        <img src="./image/MunchMart Logo.png" alt="THF Kitchens Logo">
+    </div>
+    <button class="menu-toggle" style="position: absolute; right: 10px; top: 10px;" onclick="toggleMenu()">☰</button> <!-- Toggle Button for Mobile View -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
 
     <!-- Main Section -->
     <main>
-        <div class="sidebar">
-            <h2>Sidebar Title</h2>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-        </div>
+         
         <div class="main-content">
             <section class="hero">
                 <h1>Corporate Tuck Shops</h1>
@@ -166,6 +163,13 @@
                 sidebar.classList.remove("sticky");
             }
         });
+      
+    function toggleMenu() {
+        const nav = document.querySelector("nav");
+        nav.classList.toggle("show-menu");
+    }
+ 
+
     </script>
 </body>
 

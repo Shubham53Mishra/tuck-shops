@@ -24,6 +24,16 @@ header {
     margin-left: 90px;
 }
 
+/* Menu Toggle Button */
+.menu-toggle {
+    display: none; /* Hidden by default, shown in mobile */
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+}
+
 /* Navigation */
 nav ul {
     list-style: none;
@@ -45,33 +55,6 @@ nav ul li a {
     color: yellow;
     padding: 10px 20px;
 }
-
-/* Main Section */
-/* Main and Sidebar */
-/* Main and Sidebar */
-/* Main and Sidebar */
-main {
-    display: flex; /* Ensure main is a flex container */
-}
-
-.sidebar {
-    width: 20%; /* Sidebar width */
-    padding: 20px; 
-    background-color: #f8f8f8;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    position: sticky; /* Make sidebar sticky */
-    top: 0; /* Stick to the top */
-    height: calc(100vh - 40px); /* Full height minus any header/footer */
-    overflow-y: auto; /* Allow scrolling if content overflows */
-}
-
-.main-content {
-    width: 80%; /* Main content width */
-    padding: 20px; 
-}
-
-
-
 
 /* Hero */
 .hero {
@@ -119,13 +102,6 @@ main {
 
 h2 { font-size: 1.5rem; color: #333; margin-bottom: 10px; }
 p { font-size: 1rem; color: #666; }
-
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    .container { grid-template-columns: 1fr; }
-    main { flex-direction: column; }
-    .sidebar, .main-content { width: 100%; }
-}
 
 .container1, .container2 {
     display: flex;
@@ -204,14 +180,6 @@ p { font-size: 1rem; color: #666; }
     color: white;
 }
 
-@media (max-width: 768px) {
-    .contact-section {
-        flex-direction: column;
-        padding: 20px;
-    }
-    .contact-info h1 { font-size: 2rem; }
-}
-
 /* Footer */
 .footer {
     background-color: #f2e8d8;
@@ -239,4 +207,164 @@ p { font-size: 1rem; color: #666; }
     text-decoration: none;
     color: black;
     font-size: 24px;
+}
+
+/* Responsive Design for Tablets and Smaller Devices */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    
+    .logo img {
+        height: 60px;
+        margin: 0 auto;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .btn-quote {
+        padding: 8px 16px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .feature-box {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .contact-info h1 {
+        font-size: 2rem;
+    }
+
+    .contact-info p,
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .social-icons a {
+        font-size: 20px;
+    }
+}
+
+/* Responsive Design for Small Mobile Screens */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Adjust logo and menu-toggle to be side by side */
+    .logo {
+        display: inline-block;
+    }
+
+    .logo img {
+        height: 50px;
+        margin-left: 0;
+    }
+
+    .menu-toggle {
+        display: inline-block;
+    }
+
+    /* Hide navigation by default */
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Show navigation when .show-menu is active */
+    nav.show-menu ul {
+        display: flex;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn-quote {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .btn-talk {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .feature-box {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .contact-info h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-info p {
+        font-size: 1rem;
+    }
+
+    .footer-content {
+        align-items: center;
+    }
+
+    .logo-section img {
+        max-width: 80px;
+        margin: 0 auto;
+    }
+
+    .social-icons {
+        font-size: 18px;
+    }
 }

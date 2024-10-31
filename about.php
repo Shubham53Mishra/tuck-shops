@@ -28,13 +28,23 @@
             z-index: 1000;
         }
 
-        /* Logo Styles */
         .logo img {
             height: 80px;
             margin-left: 90px;
         }
 
-        /* Navigation Styles */
+        /* Menu Toggle Button */
+        .menu-toggle {
+            display: none;
+            /* Hidden by default, shown in mobile */
+            font-size: 24px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #333;
+        }
+
+        /* Navigation */
         nav ul {
             list-style: none;
             display: flex;
@@ -53,6 +63,12 @@
             color: #333;
             font-size: 16px;
             padding: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: black;
+            color: white;
         }
 
         nav ul li a.btn-quote {
@@ -62,7 +78,7 @@
             border-radius: 5px;
         }
 
-        nav ul li a:hover {
+        .btn-quote:hover {
             background-color: black;
             color: white;
         }
@@ -97,7 +113,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            /* background-color: black; */
             color: white;
             padding: 50px 0;
         }
@@ -135,9 +150,7 @@
             flex: 1;
             padding: 20px;
             text-align: center;
-            /* Change this to center */
         }
-
 
         .geo-image {
             flex: 1;
@@ -177,13 +190,11 @@
         }
 
         /* Features Section */
-        /* Features Section */
         .features {
             display: flex;
             justify-content: space-between;
             margin-top: 40px;
             flex-wrap: wrap;
-            /* Allow cards to wrap on smaller screens */
         }
 
         .feature-box {
@@ -193,20 +204,16 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             border-radius: 12px;
             flex: 1 1 30%;
-            /* Allow cards to grow/shrink and set a base width */
             min-width: 280px;
-            /* Ensure cards stay a reasonable size */
             text-align: center;
             transition: transform 0.3s ease;
             border: 1px solid #e0e0e0;
         }
 
-
         .feature-box:hover {
             transform: translateY(-10px);
             box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
         }
-
 
         .feature-box h2 {
             color: black;
@@ -220,46 +227,34 @@
             line-height: 1.6;
         }
 
-        /* Social media and contact section */
-
+        /* Footer Section */
         .footer {
             background-color: #f2e8d8;
             padding: 30px 20px;
             text-align: center;
-            /* Center all text in the footer */
             margin-top: 40px;
         }
 
         .footer-content {
             display: flex;
-            /* Use flexbox to align items */
             justify-content: space-between;
-            /* Space between logo and contact info */
             align-items: center;
-            /* Center align vertically */
         }
 
         .logo-section img {
             max-width: 100px;
-            /* Set a max width for the logo */
             height: auto;
-            /* Maintain aspect ratio */
             margin-left: 110px;
         }
 
         .social-icons {
             display: flex;
-            /* Use flexbox to arrange icons */
             justify-content: center;
-            /* Center the icons horizontally */
             margin: 0 20px;
-            /* Optional: add some margin around the icons */
-        ;
         }
 
         .social-icons a {
             margin: 0 10px;
-            /* Space between icons */
             text-decoration: none;
             color: black;
             font-size: 24px;
@@ -267,35 +262,53 @@
 
         .contact-info {
             text-align: center;
-            /* Center align contact info */
         }
 
         .contact-info p {
             margin: 0;
-            /* Remove default margin */
             margin-right: 100px;
-            
         }
-
 
         /* Responsive Styles */
         @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                padding: 10px 20px;
+            }
 
-            .hero,
-            .geo-section {
+            .logo img {
+                height: 60px;
+                margin: 0 auto;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+
+            .btn-quote {
+                padding: 8px 16px;
+            }
+
+            .hero {
                 flex-direction: column;
                 text-align: center;
             }
 
             .chef-image,
-            .text-content,
-            .geo-text {
+            .text-content {
                 max-width: 100%;
+                padding: 10px;
+            }
+
+            .geo-section {
+                flex-direction: column;
             }
 
             .geo-image img {
-                max-width: 200px;
-                margin-right: 0;
+                max-width: 100%;
+                margin: 0 auto;
             }
 
             .features {
@@ -304,18 +317,262 @@
 
             .feature-box {
                 max-width: 90%;
-                margin: 20px auto;
+                margin: 10px auto;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .logo-section img {
+                max-width: 80px;
+            }
+
+            .social-icons a {
+                font-size: 20px;
+            }
+
+            .contact-info p {
+                font-size: 14px;
+                margin-right: 0;
             }
         }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .logo {
+                display: inline-block;
+            }
+
+            .logo img {
+                height: 50px;
+                margin-left: 0;
+            }
+
+            .menu-toggle {
+                display: inline-block;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            nav.show-menu ul {
+                display: flex;
+            }
+
+            nav ul li a {
+                font-size: 14px;
+                padding: 8px;
+            }
+
+            .btn-quote {
+                padding: 6px 12px;
+                font-size: 14px;
+            }
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .chef-image {
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+                /* Center the image */
+                padding: 10px;
+            }
+
+            .chef-image img {
+                max-width: 80%;
+                /* Adjust size if needed */
+                height: auto;
+            }
+
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .container,
+            .section,
+            .about-section,
+            .geo-section,
+            .footer {
+                text-align: center;
+                /* Center text */
+                padding: 10px;
+                /* Adjust padding if needed */
+                margin: 0 auto;
+                /* Center the sections */
+            }
+
+            .text-content {
+                max-width: 100%;
+                /* Full width */
+                padding: 10px;
+                /* Adjust padding */
+            }
+
+            .geo-section {
+                flex-direction: column;
+                /* Stack elements */
+            }
+        }
+
+        .footer-content {
+        align-items: center;
+    }
+
+    .logo-section img {
+        max-width: 80px;
+        margin: 0 auto;
+    }
+
+    .social-icons {
+        font-size: 18px;
+    }
+
+
+        /* Additional Media Query for 320px */
+        @media (max-width: 320px) {
+            header {
+                padding: 8px;
+            }
+
+            .logo img {
+                height: 40px;
+                /* Adjust logo height */
+            }
+
+            nav ul li a {
+                font-size: 12px;
+                /* Smaller font size for links */
+                padding: 6px;
+                /* Reduced padding */
+            }
+
+            .btn-quote {
+                padding: 4px 8px;
+                /* Smaller button padding */
+                font-size: 12px;
+                /* Smaller button font size */
+            }
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .chef-image {
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+                /* Center the image */
+                padding: 8px;
+                /* Adjust padding if needed */
+            }
+
+            .chef-image img {
+                max-width: 70%;
+                /* Further adjust size if needed */
+                height: auto;
+            }
+
+            .features {
+                flex-direction: column;
+                /* Stack features */
+            }
+
+            .feature-box {
+                margin: 5px auto;
+                /* Reduce margin between feature boxes */
+                padding: 20px;
+                /* Reduce padding */
+            }
+
+            h1 {
+                font-size: 20px;
+                /* Smaller heading size */
+            }
+
+            h2 {
+                font-size: 18px;
+                /* Smaller subheading size */
+            }
+
+            p {
+                font-size: 14px;
+                /* Smaller paragraph size */
+            }
+
+            .container,
+            .section,
+            .about-section,
+            .geo-section,
+            .footer {
+                text-align: center;
+                /* Center text */
+                padding: 8px;
+                /* Adjust padding for smaller screens */
+                margin: 0 auto;
+                /* Center the sections */
+            }
+
+            .text-content {
+                max-width: 100%;
+                /* Full width */
+                padding: 8px;
+                /* Adjust padding */
+            }
+
+            .geo-section {
+                flex-direction: column;
+                /* Stack elements */
+            }
+        }
+        .footer-content {
+        align-items: center;
+    }
+
+    .logo-section img {
+        max-width: 80px;
+        margin: 0 auto;
+    }
+
+    .social-icons {
+        font-size: 18px;
+    }
+
     </style>
+
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="image/MunchMart Logo.png" alt="THF Kitchens Logo">
+            <img src="./image/MunchMart Logo.png" alt="THF Kitchens Logo">
         </div>
-
+        <button class="menu-toggle" style="position: absolute; right: 10px; top: 10px;" onclick="toggleMenu()">☰</button> <!-- Toggle Button for Mobile View -->
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -329,7 +586,7 @@
     <!-- Hero Section with Chef Image and Text -->
     <div class="hero">
         <div class="chef-image">
-        <img src="./image/shop.png" alt="Chef Image" style="width: 70%; margin-left: 120px;">
+            <img src="./image/shop.png" alt="Chef Image" style="width: 70%; margin-left: 120px;">
 
         </div>
         <div class="text-content">
@@ -357,8 +614,8 @@
             <h2>Geographic Reach</h2>
             <hr>
             <p>Currently, we operate in the vibrant corporate landscapes of Gurgaon, Delhi, and Noida, serving esteemed organizations across these key business hubs. With over 18 tuck shops running across multiple offices.
-             <p>we are dedicated to transforming corporate dining through technology, culinary expertise, and exceptional service, setting the standard for workplace dining in the region.</p>
-             </p>
+            <p>we are dedicated to transforming corporate dining through technology, culinary expertise, and exceptional service, setting the standard for workplace dining in the region.</p>
+            </p>
         </div>
     </div>
 
@@ -402,8 +659,15 @@
                 <p>munchmart2024@gmail.com</p>
             </div>
         </div>
-        <p>&copy; 2024  Ridobiko Solutions Private Limited.All rights reserved.</p>
+        <p>&copy; 2024 Ridobiko Solutions Private Limited.All rights reserved.</p>
     </div>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('show-menu');
+        }
+    </script>
+
 
 </body>
 

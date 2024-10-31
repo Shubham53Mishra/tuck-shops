@@ -317,6 +317,8 @@ nav ul li a.btn-quote {
     margin: 0; /* Remove default margin */
    
 }
+ 
+
 
 /* Mobile View for 480px */
  
@@ -540,8 +542,8 @@ nav ul li a.btn-quote {
         <ul>
             <li><a href="about.php">About Us</a></li>
             <li><a href="ContactUs.php">Contact Us</a></li>
-            <li><a href="#" class="btn-quote">Get a Quote</a></li>
-        </ul>
+            <li><a href="#" class="btn-quote" onclick="scrollToTalkSection(event)">Get a Quote</a></li>
+         </ul>
     </nav>
 </header>
 
@@ -575,31 +577,29 @@ nav ul li a.btn-quote {
         </div>
 
 
-        <div class="talk-section">
-            <div class="talk-info">
-                <h1 class="">Talk with THF Kitchens for 15 minutes</h1>
-                <p>Learn how our popular amenity can help your team</p>
-                <p>Mobile<a class="contact-link" href="tel:+91">+91 9411278008</a></p>
-                <p>Email: <a class="contact-link" href="mailto:munchmart2024@gmail.com">munchmart2024@gmail.com</a></p>
+        <div class="talk-section" id="talkSection">
+    <div class="talk-info">
+        <h1>Talk with THF Kitchens for 15 minutes</h1>
+        <p>Learn how our popular amenity can help your team</p>
+        <p>Mobile: <a class="contact-link" href="tel:+91">+91 9411278008</a></p>
+        <p>Email: <a class="contact-link" href="mailto:munchmart2024@gmail.com">munchmart2024@gmail.com</a></p>
+        <img src="image/truk shop.png" alt="Communication" class="contact-image" style="width: 50%; height: auto;">
+    </div>
+    <div class="contact-form">
+        <form id="talkForm" method="POST">
+            <input type="text" id="name" name="name" placeholder="Complete Name" required>
+            <input type="text" id="company" name="company" placeholder="Company Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+            <input type="text" id="city" name="city" placeholder="City" required>
+            <textarea id="message" name="message" placeholder="Your Message Here..." required></textarea>
+            <p>Your email is safe with us. We hate SPAM too.</p>
+            <button type="submit">Let's Talk</button>
+        </form>
+        <div id="responseMessage"></div>
+    </div>
+</div>
 
-
-
-                <img src="image/truk shop.png" alt="Communication" class="contact-image" style="width: 50%; height: auto;">
-            </div>
-            <div class="contact-form">
-                <form id="talkForm" method="POST">
-                    <input type="text" id="name" name="name" placeholder="Complete Name" required>
-                    <input type="text" id="company" name="company" placeholder="Company Name" required>
-                    <input type="email" id="email" name="email" placeholder="Email" required>
-                    <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
-                    <input type="text" id="city" name="city" placeholder="City" required>
-                    <textarea id="message" name="message" placeholder="Your Message Here..." required></textarea>
-                    <p>Your email is safe with us. We hate SPAM too.</p>
-                    <button type="submit">Let's Talk</button>
-                </form>
-                <div id="responseMessage"></div>
-            </div>
-        </div>
     </section>
 
     <div class="footer">
@@ -645,6 +645,21 @@ nav ul li a.btn-quote {
             const nav = document.querySelector("nav");
             nav.classList.toggle("show-menu");
         }   
+        
+        function scrollToTalkSection(event) {
+    event.preventDefault(); // Prevent default anchor behavior
+    const talkSection = document.getElementById('talkSection');
+    const offset = 100; // Adjust this value to scroll higher or lower
+    const elementPosition = talkSection.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+    window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth' // Smooth scroll to the section
+    });
+}
+ 
+
     </script>
 </body>
 

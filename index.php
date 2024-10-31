@@ -22,7 +22,7 @@
 
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="ContactUs.php">Contact Us</a></li>
-                <li><a href="#" class="btn-quote">Get a Quote</a></li>
+                <li><a href="#" class="btn-quote" onclick="scrollToTalkSection(event)">Get a Quote</a></li>
             </ul>
         </nav>
     </header>
@@ -85,7 +85,7 @@
                 </div>
             </div>
 
-            <div class="contact-section">
+            <div class="contact-section" id="talkSection">
                 <div class="contact-info">
                     <h1 class="">Talk with THF Kitchens for 15 minutes</h1>
                     <p>Learn how our popular amenity can help your team</p>
@@ -168,6 +168,18 @@
             const nav = document.querySelector("nav");
             nav.classList.toggle("show-menu");
         }
+        function scrollToTalkSection(event) {
+    event.preventDefault(); // Prevent default anchor behavior
+    const talkSection = document.getElementById('talkSection');
+    const offset = 100; // Adjust this value to scroll higher or lower
+    const elementPosition = talkSection.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+    window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth' // Smooth scroll to the section
+    });
+}
     </script>
 </body>
 
